@@ -2,6 +2,7 @@
   /* Colors */
   --clr-black: 0 0% 17%;
   --clr-gray: 0 0% 40%;
+  --clr-gray-light: 0 0% 97%;
   --clr-white: 0 0% 100%;
   --clr-orange: 18 100% 55%;
   --clr-orange-light: 28 100% 55%;
@@ -10,8 +11,7 @@
   --clr-back: hsl(var(--clr-white));
   --clr-title: hsl(var(--clr-black));
   --clr-text: hsl(var(--clr-gray));
-  /* --clr-caption: var(--clr-gray-light);
-  --clr-label: var(--clr-gray-light); */
+  --clr-subtitle: hsl(var(--clr-gray-light));
 
   --clr-primary: hsl(var(--clr-orange));
   --clr-primary-light: hsl(var(--clr-orange-light));

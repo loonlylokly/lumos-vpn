@@ -8,18 +8,25 @@
 
 .input {
   width: 100%;
-  padding: 1.2rem 2rem;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 140%;
-  border: 0.1rem solid var(--clr-shadow);
-  border-radius: var(--brd);
+  padding: 16px 16px 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--clr-subtitle);
+  border: 0.1rem solid var(--clr-text);
+  border-radius: 16px;
 
   &::placeholder {
-    color: var(--clr-placeholder);
+    color: var(--clr-text);
   }
 }
 
 .error {
   border: 0.1rem solid red;
+}
+
+.message {
+  color: red;
+  padding-left: 10px;
+  font-size: 14px;
 }

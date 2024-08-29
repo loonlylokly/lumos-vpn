@@ -7,8 +7,8 @@ import styles from './Advantages.module.css';
 export function Advantages() {
   return (
     <section className={styles.adventages}>
-      {advantages.map((advantage) => (
-        <AdvantageCard>
+      {advantages.map((advantage, index) => (
+        <AdvantageCard key={index}>
           <AdvantageCard.Icon>
             <HideIcon />
           </AdvantageCard.Icon>

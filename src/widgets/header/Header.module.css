@@ -1,6 +1,10 @@
 .header {
+  position: fixed;
+  width: 100%;
   padding: 18px 16px;
   display: flex;
   justify-content: space-between;
+  background-color: var(--clr-back);
   box-shadow: 0px 4px 16px 0 hsl(var(--clr-black) / 14%);
+  z-index: 100;
 }
