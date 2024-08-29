@@ -23,7 +23,7 @@
   --brd: 2rem;
 
   /* Padding */
-  --pd-section: 75px 0 0;
+  --pd-section: 0;
 
   /* Gap */
   --statistics-gap: 57px;
@@ -34,7 +34,7 @@
     --promo-img-w: 540px;
 
     /* Padding */
-    --pd-section: 75px 60px 0;
+    --pd-section: 0 60px;
 
     --statistics-gap: 104px;
   }
@@ -43,6 +43,6 @@
 @media (min-width: 1200px) {
   :root {
     /* Padding */
-    --pd-section: 75px 194px 0;
+    --pd-section: 0 194px;
   }
 }

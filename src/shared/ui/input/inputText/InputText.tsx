@@ -1,12 +1,8 @@
 import { Control, Field, Label, Message } from '@radix-ui/react-form';
 import { forwardRef } from 'react';
 
+import { TInputProps } from '@/shared/lib/types/ui';
 import style from './InputText.module.css';
-
-export type TInputProps = React.DetailedHTMLProps<
-  React.InputHTMLAttributes<HTMLInputElement>,
-  HTMLInputElement
->;
 
 export type TInput = {
   label?: string;

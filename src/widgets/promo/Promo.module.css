@@ -1,5 +1,5 @@
 .promo {
-  padding-inline: 0;
+  padding: 13px 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@
 
 .statistics {
   width: 100%;
-  padding-inline: 16px;
+  padding: 75px 16px 0;
 }
 
 .text_capture {
@@ -49,5 +49,6 @@
 @media (min-width: 634px) {
   .promo {
     padding: var(--pd-section);
+    padding-top: 75px;
   }
 }

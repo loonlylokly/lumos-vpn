@@ -1,0 +1,27 @@
+.fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: var(--clr-title);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  padding: 29px 10px;
+  display: flex;
+  align-items: flex-end;
+  column-gap: 8px;
+  border-radius: 16px;
+  box-shadow: 0 2px 11px 0 hsl(var(--clr-black) / 25%);
+}
+
+.legend {
+  margin-bottom: 16px;
+}
+
+.submit {
+  margin-top: 16px;
+  width: 100%;
+}

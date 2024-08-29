@@ -27,13 +27,10 @@ section {
   padding: var(--pd-section);
 }
 
-.main {
-  min-height: 100vh;
-  padding-top: 5.4rem;
+main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  padding-bottom: 100px;
 }
 
 .wrapper {
