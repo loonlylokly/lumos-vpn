@@ -1,0 +1,91 @@
+.button {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.2rem;
+  color: var(--clr-text);
+  font-family: var(--font-poppins);
+  font-size: 1.6rem;
+  line-height: 140%;
+  font-weight: 600;
+  transition: 300ms;
+  user-select: none;
+  cursor: pointer;
+
+  &:active,
+  &:hover {
+    transition: 300ms;
+  }
+
+  & svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.primary,
+.secondary,
+.tertiary {
+  border-radius: 2rem;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.primary {
+  border: 2px solid var(--clr-primary);
+  background-color: var(--clr-primary);
+
+  &:active {
+    border-color: var(--clr-primary-light);
+    background-color: var(--clr-primary-light);
+  }
+}
+
+.secondary {
+  border: 2px solid var(--clr-secondary);
+  background-color: var(--clr-secondary);
+
+  &:active {
+    background-color: transparent;
+  }
+}
+
+.tertiary {
+  background-color: var(--clr-text);
+  border-color: var(--clr-text);
+  color: var(--clr-back);
+
+  &:active {
+    background-color: var(--clr-primary);
+    border-color: var(--clr-primary);
+  }
+}
+
+.text {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+
+  &:active {
+    border: 0.2rem solid var(--clr-primary);
+    border-radius: 2rem;
+  }
+}
+
+.lg {
+  height: 7.2rem;
+  padding: 2.05rem 4.8rem;
+}
+
+.md {
+  height: 6rem;
+  padding: 1.9rem 4.8rem;
+}
+
+.sm {
+  height: 4.6rem;
+  padding: 1.2rem 4.8rem;
+}

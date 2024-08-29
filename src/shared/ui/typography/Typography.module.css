@@ -1,0 +1,49 @@
+.work_sans {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+
+  &:where(.large_title) {
+    font-size: 2rem;
+    line-height: 46px;
+  }
+
+  &:where(.title_1) {
+    font-size: 1.75rem;
+    line-height: 34px;
+  }
+
+  &:where(.title_2) {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+
+  &:where(.subtitle) {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  &:where(.body) {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  &:where(.text) {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  &:where(.capture) {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  &:where(.footnote) {
+    font-size: 0.813rem;
+    font-weight: 500;
+    line-height: 18px;
+  }
+}
