@@ -9,7 +9,9 @@ export function Header() {
     <header className={styles.header}>
       <Logo />
       <Button size='md' appearance='secondary'>
-        <Typography variant='text'>Get VPN</Typography>
+        <Typography variant='text'>
+          <>Get VPN</>
+        </Typography>
       </Button>
     </header>
   );

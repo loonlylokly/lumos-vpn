@@ -1,7 +1,14 @@
 import { SVGProps } from 'react';
 
 export const StarIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <svg
+    width='14'
+    height='14'
+    viewBox='0 0 14 14'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
     <g clip-path='url(#clip0_2001_92)'>
       <path
         d='M9.57875 4.93777L13.7215 7.19496L9.57875 9.47027L7.3125 13.6039L5.04625 9.47027L0.903537 7.19496L5.04625 4.93777L7.3125 0.785995L9.57875 4.93777Z'

@@ -1,7 +1,14 @@
 import { SVGProps } from 'react';
 
 export const VenokIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg width='22' height='42' viewBox='0 0 22 42' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <svg
+    width='22'
+    height='42'
+    viewBox='0 0 22 42'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
     <path
       d='M13.7706 1.42208C12.4563 2.65888 12.1277 4.59997 12.1277 5.41592C12.6754 5.41592 14.1244 5.1067 15.5398 3.86984C16.9552 2.63298 17.4775 0.777867 17.5618 0.00491857C16.8457 -0.0380259 15.0849 0.185285 13.7706 1.42208Z'
       fill='#3177F2'

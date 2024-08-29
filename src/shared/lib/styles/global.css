@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding: var(--pd-section);
+}
+
 .main {
   min-height: 100vh;
   padding-top: 5.4rem;

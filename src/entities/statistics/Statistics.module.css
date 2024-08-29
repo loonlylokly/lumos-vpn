@@ -1,0 +1,30 @@
+.statistics {
+  padding-block: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: var(--statistics-gap);
+  border-radius: 1rem;
+  box-shadow: 0 2px 11px 0 hsl(var(--clr-black) / 25%);
+}
+
+.locations,
+.servers {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.text_wrap {
+  display: grid;
+}
+
+.divider {
+  width: 32px;
+  margin: 0;
+}
+
+.number {
+  color: var(--clr-title);
+}

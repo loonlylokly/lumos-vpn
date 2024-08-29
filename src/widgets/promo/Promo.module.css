@@ -1,0 +1,43 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.cta_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  max-width: 396px;
+  text-align: center;
+}
+
+.img_wrap {
+  position: relative;
+  width: var(--promo-img-w);
+  height: 210px;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn_cta {
+  margin-top: 17px;
+  width: 100%;
+  max-width: 396px;
+}
+
+.trusted {
+  margin-top: 24px;
+}
+
+.space {
+  height: 500px;
+}

@@ -27,7 +27,7 @@
 .primary,
 .secondary,
 .tertiary {
-  border-radius: 2rem;
+  border-radius: 1rem;
 
   &:hover {
     transform: scale(0.9);
@@ -47,6 +47,7 @@
 .secondary {
   border: 2px solid var(--clr-secondary);
   background-color: var(--clr-secondary);
+  border-radius: 1.5rem;
 
   &:active {
     background-color: transparent;

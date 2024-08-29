@@ -28,7 +28,7 @@ export const Typography = ({
 }: TProps) => {
   const Comp = asChild ? Slot : 'p';
   return (
-    <Comp {...rest} className={`${style.text} ${style[variant]} ${style[font]} ${className}`}>
+    <Comp {...rest} className={`${style[variant]} ${style[font]} ${className}`}>
       <Slottable>{children}</Slottable>
     </Comp>
   );

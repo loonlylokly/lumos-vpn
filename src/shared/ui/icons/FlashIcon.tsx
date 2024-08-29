@@ -1,7 +1,14 @@
 import { SVGProps } from 'react';
 
 export const FlashIcon = (props: SVGProps<SVGSVGElement>) => (
-  <svg width='51' height='51' viewBox='0 0 51 51' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <svg
+    width='51'
+    height='51'
+    viewBox='0 0 51 51'
+    fill='none'
+    xmlns='http://www.w3.org/2000/svg'
+    {...props}
+  >
     <circle cx='25.4286' cy='25.204' r='25.204' fill='#3177F2' />
     <g clip-path='url(#clip0_2001_138)'>
       <path
