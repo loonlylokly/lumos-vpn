@@ -1,0 +1,12 @@
+.adventages {
+  display: grid;
+  justify-items: center;
+  gap: 8px 32px;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media (min-width: 634px) {
+  .adventages {
+    grid-template-columns: repeat(auto-fill, calc(50% - 16px));
+  }
+}

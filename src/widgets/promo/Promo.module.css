@@ -1,4 +1,5 @@
 .promo {
+  padding-inline: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,6 +8,7 @@
 }
 
 .cta_wrap {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,10 +36,18 @@
   max-width: 396px;
 }
 
-.trusted {
-  margin-top: 24px;
+.statistics {
+  width: 100%;
+  padding-inline: 16px;
 }
 
-.space {
-  height: 500px;
+.text_capture {
+  margin-inline: 16px;
+  text-align: center;
+}
+
+@media (min-width: 634px) {
+  .promo {
+    padding: var(--pd-section);
+  }
 }

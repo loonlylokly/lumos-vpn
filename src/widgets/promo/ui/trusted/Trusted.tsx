@@ -1,6 +1,6 @@
+import { BlueText } from '@/entities/blueText/BlueText';
 import { VenokIcon } from '@/shared/ui/icons/VenokIcon';
 import { Typography } from '@/shared/ui/typography/Typography';
-import { BlueText } from '../blueText/BlueText';
 import styles from './Trusted.module.css';
 
 export function Trusted() {

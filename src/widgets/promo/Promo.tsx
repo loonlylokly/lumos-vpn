@@ -3,8 +3,8 @@ import { Button } from '@/shared/ui/button/Button';
 import { Typography } from '@/shared/ui/typography/Typography';
 import Image from 'next/image';
 
-import { Statistics } from '@/entities/statistics/Statistics';
-import { Trusted } from '@/entities/trusted/Trusted';
+import { Statistics } from '@/widgets/promo/ui/statistics/Statistics';
+import { Trusted } from '@/widgets/promo/ui/trusted/Trusted';
 import styles from './Promo.module.css';
 
 export function Promo() {
@@ -25,6 +25,7 @@ export function Promo() {
             alt='Man is turning on VPN'
             fill
             sizes='100%'
+            priority={true}
           />
         </div>
         <Button className={styles.btn_cta}>
@@ -34,11 +35,12 @@ export function Promo() {
         </Button>
       </div>
       <Trusted />
-      <Statistics />
-      <Typography variant='body'>
+      <div className={styles.statistics}>
+        <Statistics />
+      </div>
+      <Typography className={styles.text_capture} variant='body'>
         VPN-your <BlueText>ultimate</BlueText> solution for a private and secure online experience!
       </Typography>
-      <div className={styles.space}></div>
     </section>
   );
 }
