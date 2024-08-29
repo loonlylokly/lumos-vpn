@@ -6,22 +6,22 @@ import style from './Typography.module.css';
 type TProps = {
   asChild?: boolean;
   variant?:
-    | 'LargeTitle'
-    | 'Title1'
-    | 'Title2'
-    | 'Subtitle'
-    | 'Body'
-    | 'Text'
-    | 'Capture'
-    | 'Footnote';
-  font?: 'work_sans' | 'space_mono';
+    | 'large_title'
+    | 'title_1'
+    | 'title_2'
+    | 'subtitle'
+    | 'body'
+    | 'text'
+    | 'capture'
+    | 'footnote';
+  font?: 'poppins';
   children?: React.ReactNode;
 } & HTMLAttributes<HTMLElement>;
 
 export const Typography = ({
   asChild = false,
-  variant = 'Text',
-  font = 'work_sans',
+  variant = 'text',
+  font = 'poppins',
   className = '',
   children,
   ...rest

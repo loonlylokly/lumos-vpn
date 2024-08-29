@@ -1,17 +1,17 @@
 :root {
   /* Colors */
-  --clr-black: 0, 0%, 16.86%;
-  --clr-gray: 0, 0%, 39.22%;
-  --clr-white: 0, 0%, 100%;
-  --clr-orange: 18.1, 100%, 54.51%;
-  --clr-orange-light: 27.93, 100%, 54.51%;
-  --clr-blue: 218.24, 88.13%, 57.06%;
+  --clr-black: 0 0% 16.86%;
+  --clr-gray: 0 0% 39.22%;
+  --clr-white: 0 0% 100%;
+  --clr-orange: 18 100% 55%;
+  --clr-orange-light: 28 100% 55%;
+  --clr-blue: 218 88% 57%;
 
-  --clr-back: var(--clr-white);
-  --clr-title: var(--cle-black);
-  --clr-text: var(--clr-white);
-  --clr-caption: var(--clr-gray-light);
-  --clr-label: var(--clr-gray-light);
+  --clr-back: hsl(var(--clr-white));
+  --clr-title: hsl(var(--clr-black));
+  --clr-text: hsl(var(--clr-grey));
+  /* --clr-caption: var(--clr-gray-light);
+  --clr-label: var(--clr-gray-light); */
 
   --clr-primary: hsl(var(--clr-orange));
   --clr-primary-light: hsl(var(var(--clr-orange-light)));
